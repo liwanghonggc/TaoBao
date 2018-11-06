@@ -1,0 +1,184 @@
+/**
+ * 公共样式
+ * 
+ */
+
+
+/*版心*/
+.w {
+	width: 1190px;
+ 	margin: auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?axvffw');
+  src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+    url('../fonts/icomoon.woff?axvffw') format('woff'),
+    url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*淘宝顶部导航栏开始*/
+.header {
+	height: 36px;
+	line-height: 36px;
+	background-color: #f5f5f5;
+	color: #3c3c3c;
+	font-size: 12px;
+}
+
+.header .w .fl {
+	width: 330px;
+}
+
+.header .fl li {
+	float: left;
+	margin-right: 11px;
+}
+
+.header .fr li {
+	float: left;
+	margin-right: 16px;
+}
+
+.header li a {
+	color: #3c3c3c;
+	font-size: 12px;
+}
+
+.header li a:hover {
+	color: #f10215;
+}
+
+.dropdown i {
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.dropdown .msg {
+	color: red;
+}
+
+.car {
+	color: #F10215;
+	font-size: 12px;
+}
+
+.collect {
+	color: #9c9c9c;
+}
+
+.spacer {
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 13px 10px 0;
+}
+
+/*淘宝顶部导航栏结束*/
+
+/*淘宝顶部event开始*/
+.event {
+	height: 100px;
+	background: url(../img/header_bc.png) no-repeat;
+}
+
+.event .w div{
+	float: left;
+	margin: 18px 5px 5px 5px;
+}
+
+.event-pic {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px!important;
+}
+
+.event-pic img {
+	width: 100%;
+	height: auto;
+}
+
+.event-inner {
+	width: 190px;
+	height: 70px;
+}
+
+.event-inner img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	margin-top: -26px;
+}
+
+.firstPic {
+	background: url(../img/event_bg1.png) no-repeat;
+	position: relative;
+}
+
+.secondPic {
+	background: url(../img/event_bg2.png) no-repeat;
+	position: relative;
+}
+
+.thirdPic {
+	background: url(../img/event_bg3.png) no-repeat;
+	position: relative;
+}
+
+.fourthPic {
+	background: url(../img/event_bg4.png) no-repeat;
+	position: relative;
+}
+
+.fivePic {
+	background: url(../img/event_bg5.png) no-repeat;
+	position: relative;
+}
+
+.event-inner h4 {
+	margin-top: 13px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+
+.event-inner p {
+	margin-top: 5px;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+/*淘宝顶部event结束*/
