@@ -259,7 +259,6 @@
 	position: relative;
 	top: 10px;
 	left: 10px;
-	background-color: pink;
 }
 
 .mid2_1 img {
@@ -321,7 +320,6 @@
 	position: absolute;
 	top: 10px;
 	right: 0;
-	background-color: yellow;
 }
 
 .mid2_3 {
@@ -330,7 +328,13 @@
 	position: absolute;
 	bottom: 0;
 	left: 10px;
-	background-color: pink;
+}
+
+.mid2_3 img {
+	float: left;
+	width: 240px;
+	height: 160px;
+	margin: 25px 5px;
 }
 
 .mid2_4 {
@@ -339,7 +343,15 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	background-color: pink;
+}
+
+.mid2_4 span {
+	position: absolute;
+	left: 0;
+	top: -20px;
+	font-size: 14px;
+	color: gray;
+	font-weight: 300;
 }
 
 .mid3 {
@@ -352,12 +364,57 @@
 .mid4 {
 	height: 98px;
 	width: 880px;
-	background-color: red;
 	position: absolute;
 	bottom: 13px;
 	left: 0;
 }
 
+.mid4 .left_img {
+	float: left;
+	width: 190px;
+	height: 98px;
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
+.mid4 .left_img p {
+	font-size: 14px;
+	font-weight: 400;
+	color: gray;
+}
+
+.mid4 .right_img {
+	float: left;
+	width: 690px;
+	height: 98px;
+	padding-top: 12px;
+}
+
+.mid4 .right_img img {
+	height: 75px;
+	width: 130px;
+	float: left;
+	margin-right: 15px;
+}
+
+.mid4 .right_img h4 a{
+	display: block;
+
+	float: left;
+	font-weight: 500;
+	font-family: "新宋体";
+	color: black;
+}
+
+.mid4 .right_img h4 a:hover {
+	color: #F10215;
+}
+
+.mid4 .right_img p {
+	color: gray;	
+	font-weight: 200;
+	font-family: "新宋体";
+}
 
 
 
